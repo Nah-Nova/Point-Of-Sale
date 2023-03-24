@@ -1,0 +1,2 @@
+DELETE FROM Users
+WHERE UserId = 30103;
