@@ -33,15 +33,15 @@ namespace FinalPoject.UserInterface.Dashboard
 
         private void PopulateGridView()
         {
-            lblExpLast7Day.Text = expenseRepo.GetLastWeekExpense() + " BDT";
-            lblTotalExp.Text = expenseRepo.GetTotalExpense() + " BDT";
-            lblExpLast30Day.Text = expenseRepo.GetLastMonth() + " BDT";
-            lblExpLastDay.Text = expenseRepo.GetTodayExpense() + " BDT";
+            lblExpLast7Day.Text = expenseRepo.GetLastWeekExpense() + " EUR";
+            lblTotalExp.Text = expenseRepo.GetTotalExpense() + " EUR";
+            lblExpLast30Day.Text = expenseRepo.GetLastMonth() + " EUR";
+            lblExpLastDay.Text = expenseRepo.GetTodayExpense() + " EUR";
             //
-            lblLastTotalSell.Text = ordersRepo.GetTotalOrders() + " BDT";
-            lblLastDaySell.Text = ordersRepo.GetTodaySell() + " BDT";
-            lblLast7DaySell.Text = ordersRepo.GetLastWeekSell() + " BDT";
-            lblLast30DaySell.Text = ordersRepo.GetLastMonthSell() + " BDT";
+            lblLastTotalSell.Text = ordersRepo.GetTotalOrders() + " EUR";
+            lblLastDaySell.Text = ordersRepo.GetTodaySell() + " EUR";
+            lblLast7DaySell.Text = ordersRepo.GetLastWeekSell() + " EUR";
+            lblLast30DaySell.Text = ordersRepo.GetLastMonthSell() + " EUR";
             //
             lblTotalAdmin.Text = usersRepo.GetTotalAdmin();
             lblTotalSalesMan.Text = usersRepo.GetTotalSalesman();
@@ -52,10 +52,10 @@ namespace FinalPoject.UserInterface.Dashboard
             lblAvailableStock.Text = productsRepo.GetAvailableProducts();
             lblNotAvailableStock.Text = productsRepo.GetNoAvailableProducts();
             //
-            lblAdminTotalSal.Text = usersRepo.GetAdminSal() + " BDT";
-            lblCashierTotalSal.Text = usersRepo.GetCashierSal() + " BDT";
-            lblSalesManTotalSal.Text = usersRepo.GetSalesmanSal() + " BDT";
-            lblTotalSal.Text = usersRepo.GetTotalSal() + " BDT";
+            lblAdminTotalSal.Text = usersRepo.GetAdminSal() + " EUR";
+            lblCashierTotalSal.Text = usersRepo.GetCashierSal() + " EUR";
+            lblSalesManTotalSal.Text = usersRepo.GetSalesmanSal() + " EUR";
+            lblTotalSal.Text = usersRepo.GetTotalSal() + " EUR";
             //
             lblTotalMC.Text = msMasterCategoriesRepo.GetMainCate();
             lblTotalSC.Text = msMasterCategoriesRepo.GetSecCate();

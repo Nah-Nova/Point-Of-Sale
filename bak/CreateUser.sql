@@ -1,0 +1,2 @@
+INSERT INTO Users (id, UserId, FirstName, LastName, Password, Email, Age, Gender, Role, Salary, JoinDate, BirthDate, NID, Phone, HomeTown, CurrentCity, Division, BloodGroup, PostalCode)
+VALUES (1, 123456789, 'John', 'Doe', 'password123', 'johndoe@example.com', 30, 'Male', 'Admin', 50000.00, '2022-03-24', '1992-01-01', '1234567890123456', '1234567890', 'New York', 'Los Angeles', 'California', 'O+', '12345');
