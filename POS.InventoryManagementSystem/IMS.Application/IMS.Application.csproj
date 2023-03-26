@@ -313,6 +313,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UserInterface\Category\FormSecondCategory.resx">
       <DependentUpon>FormSecondCategory.cs</DependentUpon>
@@ -336,9 +337,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2179847.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_construction_96px.png" />

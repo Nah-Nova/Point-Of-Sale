@@ -67,5 +67,30 @@ namespace FinalPoject.UserInterface.Dashboard
                 MessageBox.Show("Role Returned : "+role);
             }
         }
+
+        private void guna2CustomGradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

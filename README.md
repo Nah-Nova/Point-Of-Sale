@@ -1,16 +1,17 @@
-# Point of Sale (POS) - Inventory & Super Shop Management System - C#
+# C# Point-Of-Sale: Inventory Management System
 
 <div align="center">
   
   ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
   &nbsp;![.Net 4.8](https://img.shields.io/badge/4.8-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
   &nbsp;![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever%202019-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-  &nbsp;![Visual Studio](https://img.shields.io/badge/Visual%20Studio%202019-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+  &nbsp;![Visual Studio](https://img.shields.io/badge/Visual%20Studio%202022-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 
 </div>
 
 
 # Quick Shortcuts
+[Explanation Video](https://youtu.be/EzCsPRJVx-w)
 
 [**1. Get Started**](#point-of-sale-pos)
 -
@@ -43,10 +44,6 @@
       - [**3. Entity Layer**](#3-entity-layer)
       - [**4. Framework Layer**](#4-framework-layer)
       - [**5. Repository Layer**](#5-repository-layer)
-  
-  [**5. Database Diagram**](#database-diagram)
-  -
-  - [Diagram Image](#database-diagram)
 
   [**6. Screens**](#screens)
   -
@@ -71,16 +68,16 @@
 
 # Point of Sale (POS)
 
-Point of Sale (POS) with N-Tier Architecture ([**5 Layers**](#solution)). This Project was developed in C# and follows Object Relational Mapping (ORM) from scratch and using MS SQL Server 2019 and .NET Framework 4.8 as backend. Project-based on my university course curriculum [CSC 2210: Object Oriented Programming 2](https://www.aiub.edu/faculties/fst/ug-course-catalog).
+Point of Sale (POS) with N-Tier Architecture ([**5 Layers**](#solution)). This Project was developed in C# and follows Object Relational Mapping (ORM) from scratch and using MS SQL Server 2019 and .NET Framework 4.8 as backend.
 <br>
 
 #### This POS has **3 Roles** features. 
 
 ## # Roles
 
-- User 1 : **Admin**
-- User 2 : **Cashier**  
-- User 3 : **Salesman**
+- User 1 : **Admin** Username: 30103 Password 30103
+- User 2 : **Cashier**  Username: 19719 Password 19719
+- User 3 : **Salesman** Username: 1955 Password 1955
 
 ## # Features
 
@@ -119,19 +116,20 @@ Point of Sale (POS) with N-Tier Architecture ([**5 Layers**](#solution)). This P
 <br>[SQL Server Management Studio (SSMS) 18.9.2](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) 
 
 #### Step - 1 
-Download or Clone
-```sh
-git clone https://github.com/livealvi/.NET-Point-of-Sale-POS--Csharp
-```
 
+```sh
+unzip Kassasysteem-Noa_Heutz
+```
 #### Step - 2
-Make [Database](#database) follow this [Diagram](#database-diagram)
+```sh
+go into Kassasysteem-Noa_Heutz/bak and use the inventoryDB bak file to restore database
+```
 
 #### Step - 3
 Make Database connection on [**DataAccess Layer**](#2-dataaccess-layer)
 
 #### Step - 4
-Goto project folder **PointOfSaleProject** open 
+Goto project folder **Kassasysteem-Noa_Heutz** open 
 ```POS.InventoryManagementSystem.sln``` with  ```Visual Studio```
 
 #### Step - 3
@@ -191,77 +189,12 @@ Build & Run the project
 
 <img src="markdownAssets/Diagram/DiagramDB.png"  width="auto" height="auto">
 
-
-# Screens
-
 ## Windows Forms
 > **Note:** Using Default .NET UI Component And **Two 3rd Party** .NET UI & Reporting Components<br>(_**3rd Party UI Not Include on this repo**_) <br>
  >  - [DevExpress](https://www.devexpress.com/)
  >  -  [Guna UI2](https://gunaui.com/)
 
-### **# Login**
-<img src="markdownAssets/Screens/Login2.png"  width="auto" height="auto">
-
-### **# Dashboard**
-
-<img src="markdownAssets/Screens/Snapshot_1.png"  width="auto" height="auto">
-
-### **# Make Payment**
-
-<img src="markdownAssets/Screens/Snapshot_6.png"  width="auto" height="auto">
-
-### **# Sales History**
-
-<img src="markdownAssets/Screens/Snapshot_7.png"  width="auto" height="auto">
-
-### **# Master Categories**
-
-<img src="markdownAssets/Screens/Snapshot_9.png"  width="auto" height="auto">
-
-### **# Main Category**
-
-<img src="markdownAssets/Screens/Snapshot_18.png"  width="auto" height="auto">
-
-### **# Second Category**
-
-<img src="markdownAssets/Screens/Snapshot_10.png"  width="auto" height="auto">
-
-### **# Third Category**
-
-<img src="markdownAssets/Screens/Snapshot_12.png"  width="auto" height="auto">
-
-### **# Vendors**
-
-<img src="markdownAssets/Screens/Snapshot_13.png"  width="auto" height="auto">
-
-### **# Brands**
-
-<img src="markdownAssets/Screens/Snapshot_19.png"  width="auto" height="auto">
-
-### **# Products**
-
-<img src="markdownAssets/Screens/Snapshot_14.png"  width="auto" height="auto">
-
-### **# Employees & User Tracker**
-
-<img src="markdownAssets/Screens/Snapshot_16.png"  width="auto" height="auto">
-
-### **# Expenses Tracker**
-
-<img src="markdownAssets/Screens/Snapshot_15.png"  width="auto" height="auto">
-
-### **# Database Backup & Restore**
-
-<img src="markdownAssets/Screens/Snapshot_22.png"  width="auto" height="auto">
-
-<img src="markdownAssets/Screens/Snapshot_21.png"  width="auto" height="auto">
-
-<img src="markdownAssets/Screens/Snapshot_20.png"  width="auto" height="auto">
-
 ## Note
-
-- Backup Microsoft SQL Database Script or .bak file  Not Include
-  <br>
 - 3rd Party .NET UI & Reporting Components Not Include [DevExpress](https://www.devexpress.com/) and [Guna UI2](https://gunaui.com/) Not Include
 
 ### - Thank You.

@@ -25,7 +25,7 @@ namespace FinalPoject
         private void PopulateGridView(string searchKey = null)
         {
             this.dgvUser.AutoGenerateColumns = false;
-            this.dgvUser.DataSource = this.usersRepo.GetAll(searchKey).ToList();
+            this.dgvUser.DataSource = this.usersRepo.GetAll(searchKey);
             this.dgvUser.ClearSelection();
             this.Refresh();
             this.RefreshContent();
